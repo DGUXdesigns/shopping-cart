@@ -30,7 +30,7 @@ function Header({ itemCount }) {
   );
 }
 
-Header.PropTypes = {
+Header.propTypes = {
   itemCount: PropTypes.number.isRequired,
 };
 
