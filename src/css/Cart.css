@@ -1,0 +1,40 @@
+.cart-page {
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.checkout {
+  background: none;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px white;
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkout:hover {
+  background-color: orangered;
+  border: 2px solid orangered;
+}
+
+.thank-you-message {
+  font-size: 3rem;
+  font-weight: 800;
+}
