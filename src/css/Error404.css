@@ -1,0 +1,18 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  gap: 1rem;
+  text-align: center;
+  width: fit-content;
+}
+
+.error-page a {
+  color: orangered;
+}
+
+.error-page a:hover {
+  text-decoration: underline;
+}
