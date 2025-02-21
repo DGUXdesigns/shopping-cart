@@ -1,6 +1,7 @@
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Cart from './pages/Cart';
+import ProductPage from './pages/Product';
 import ErrorPage from './pages/Error404';
 import App from './App';
 
@@ -21,6 +22,10 @@ const routes = [
       {
         path: 'cart',
         element: <Cart />,
+      },
+      {
+        path: 'product/:id',
+        element: <ProductPage />,
       },
     ],
   },
