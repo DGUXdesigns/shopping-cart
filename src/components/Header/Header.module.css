@@ -10,8 +10,7 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
   padding: 1rem 2rem;
   width: 100%;
   max-width: 1440px;
@@ -31,7 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
 .nav a {
